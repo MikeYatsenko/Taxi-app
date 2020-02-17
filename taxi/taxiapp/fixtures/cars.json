@@ -1,0 +1,21 @@
+[
+  {
+    "model": "taxiapp.car",
+    "pk": 1,
+    "fields": {
+      "number": "AA7835ВК",
+      "car_brand": "Toyota Camry",
+      "is_free": true
+    }
+  },
+  {
+    "model": "taxiapp.car",
+    "pk": 2,
+    "fields": {
+      "number": "AA7836ВК",
+      "car_brand": "Toyota Corolla",
+      "is_free": true
+
+    }
+  }
+]

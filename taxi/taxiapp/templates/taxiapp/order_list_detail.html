@@ -1,0 +1,16 @@
+{% extends 'taxiapp/base.html' %}
+{% block content %}
+<ul class="rectangle">
+  <li>{{order.id}}</li>
+  <li>{{order.name}}</li>
+  <li>{{order.surname}}</li>
+  <li>{{order.adress_from}}</li>
+  <li>{{order.adress_to}}</li>
+  <li>{{order.phone_number}}</li>
+  <li>{{order.time}}</li>
+</ul>
+
+<form action="/orderlist/">
+    <button type="submit" class="btn btn-primary">К списку заказов</button>
+</form>
+{%endblock%}
