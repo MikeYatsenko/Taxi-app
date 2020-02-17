@@ -1,6 +1,8 @@
 # Taxi-app
 Здесь реализованы первые две части тестового задания.
+
 БД - PostgreSQL
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -11,4 +13,6 @@ DATABASES = {
          'PORT' : '5432',
     }
 }
+
+
 Для загрузки в базу данных машин просьба запустить сид командой python manage.py loaddata сars.json
